@@ -1,0 +1,11 @@
+python-docx==1.1.0 
+python-dotenv
+pydantic
+fastapi
+python-telegram-bot
+python-telegram-bot[job-queue]
+faiss-cpu==1.8.0
+langchain==0.2.14 
+langchain_community==0.2.12 
+langchain-openai==0.1.22 
+openai==1.41.1
