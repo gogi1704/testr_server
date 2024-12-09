@@ -5,8 +5,11 @@ from pydantic import BaseModel
 import main
 import db.user_history_db as sql_db
 import baza.doctors_baza as doctors_baza
+import os
 
 
+input = input("Введите ваш openai key: ")
+os.environ["OPENAI_API_KEY"] = input
 
 # создаем объект приложения
 app = FastAPI()
