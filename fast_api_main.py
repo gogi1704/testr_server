@@ -8,9 +8,6 @@ import baza.doctors_baza as doctors_baza
 import os
 
 
-input = input("Введите ваш openai key: ")
-os.environ["OPENAI_API_KEY"] = input
-
 # создаем объект приложения
 app = FastAPI()
 sql_db.init_db()
